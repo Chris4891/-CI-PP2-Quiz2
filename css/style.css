@@ -94,3 +94,11 @@ img, picture, video, canvas, svg {
     line-height: 30px;
     color: #FFFFFF;
   }
+
+  .quiz-box {
+    background: linear-gradient(211.22deg, #F98ABA 2.03%, #FF6D91 28.07%, #FF5C6F 50.8%);
+    border: 3px solid #CAD3FB;
+    border-radius: 37px;
+    width: 251px;
+    height: 276px;  
+  }
