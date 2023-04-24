@@ -40,7 +40,7 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   header {
@@ -66,6 +66,9 @@ img, picture, video, canvas, svg {
 
   main {
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   input {
@@ -93,12 +96,17 @@ img, picture, video, canvas, svg {
     font-size: 1.1rem;
     line-height: 30px;
     color: #FFFFFF;
+    align-self: self-start;
+  }
+
+  .mt-56 {
+    margin-top: 52px;
   }
 
   .quiz-container {
-    margin-top: 52px;
     display: flex;
     gap: 15px;
+    margin-top: 12px;
   }
 
   .quiz-box {
@@ -140,3 +148,27 @@ img, picture, video, canvas, svg {
     background: linear-gradient(209.51deg, #FFD99A 1.94%, #FFC071 31.32%, #FFAE53 52.67%);
     border: 3px solid #DFE5FF;
   }
+
+  .quiz-button {
+    background: #77AAFE;
+    box-shadow: 0px 5px 14px rgba(119, 170, 254, 0.25);
+    border-radius: 10px;
+    color: white;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 30px;
+    margin-top: 100px;
+    transition: all 0.3s ;
+  }
+
+  .quiz-button:hover {
+    background-color: #5293FF;
+
+  }
+
+  
