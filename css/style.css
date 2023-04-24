@@ -95,10 +95,48 @@ img, picture, video, canvas, svg {
     color: #FFFFFF;
   }
 
+  .quiz-container {
+    margin-top: 52px;
+    display: flex;
+    gap: 15px;
+  }
+
   .quiz-box {
-    background: linear-gradient(211.22deg, #F98ABA 2.03%, #FF6D91 28.07%, #FF5C6F 50.8%);
-    border: 3px solid #CAD3FB;
     border-radius: 37px;
     width: 251px;
     height: 276px;  
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+  }
+
+  .quiz-box-1 {
+    background: linear-gradient(211.22deg, #F98ABA 2.03%, #FF6D91 28.07%, #FF5C6F 50.8%);
+    border: 3px solid #CAD3FB;
+  }
+
+  .quiz-box img{
+    max-width: 180px;
+    height: auto;
+    align-self: center;
+  }
+  
+  .quiz-box p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+  }
+  
+  .quiz-box-2 {
+    background: linear-gradient(211.22deg, #5DE7D0 2.03%, #49CEBB 30.96%, #49C2B2 52.28%);
+    border: 3px solid #CDD6FB;
+  }
+  
+  .quiz-box-3 {
+    background: linear-gradient(209.51deg, #FFD99A 1.94%, #FFC071 31.32%, #FFAE53 52.67%);
+    border: 3px solid #DFE5FF;
   }
