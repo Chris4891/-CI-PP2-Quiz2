@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+  }
+
+html, body {
+    height: 100%;
+  }
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+  }
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .container {
+    background: linear-gradient(180deg, #7EAFFE 62.41%, rgba(126, 175, 254, 0) 62.55%, #F2F6FE 62.56%);
+    width: 100%;
+    height: 100vh;
+  }
+  
+
+  .website-logo {
+    max-width: 300px;
+    height: auto
+  }
