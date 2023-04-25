@@ -212,7 +212,12 @@ img, picture, video, canvas, svg {
 
 
   #questionScreen {
-    margin-top: 70px;
+    margin-top: 110px;
+  }
+
+  #quiz-container {
+    display: flex;
+    flex-direction: column;
   }
 
   #question-container p {
@@ -228,4 +233,27 @@ img, picture, video, canvas, svg {
 
   #options-container {
     display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+    margin: 120px 0 60px 0 ;
+  }
+
+  #options-container button {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17px 3px rgba(153, 153, 153, 0.25);
+    border-radius: 30px;
+    border: none;
+    padding: 30px 105px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 48px;
+    text-align: center;
+    color: #3A3B6B;
+    cursor: pointer;
+    transition: all 0.3s ;
+  }
+
+  #options-container button:hover {
+    background-color: #F8F8F8;
+    transform: translateY(-5px);
   }
