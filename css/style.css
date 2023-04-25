@@ -171,4 +171,7 @@ img, picture, video, canvas, svg {
 
   }
 
-  
+  .selected {
+    border: 7px solid #BCCE49;
+    transition: all 0.1s;
+  }
