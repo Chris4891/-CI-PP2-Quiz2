@@ -193,8 +193,28 @@ img, picture, video, canvas, svg {
   }
 
   .selected {
-    border: 7px solid #BCCE49;
+    /* border: 7px solid #BCCE49; */
     transition: all 0.1s;
+    background: linear-gradient(209.51deg, #5BC244 1.94%, #6ED158 31.32%, #66D14E 52.67%);
+    position: relative;
+  }
+
+  .selected::after {
+    position: absolute;
+    content: 'Selected';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 59, 107, 0.8);
+    top: 0;
+    left: 0;
+    border-radius: 37px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #f1f1f1;
   }
 
   /* CSS FOR QUESTION */
@@ -373,7 +393,7 @@ img, picture, video, canvas, svg {
     fill: none;
     stroke-width: 2;
     stroke-linecap: round;
-    stroke: #4285F4;
+    stroke: #f1f1f1;
   }
   
   #progress-label {

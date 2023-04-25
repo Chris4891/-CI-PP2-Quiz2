@@ -166,12 +166,8 @@ function updateProgressBar() {
   progressBar.style.strokeDasharray = `${percentComplete} 100`
   questionNo.textContent = `${currentQuestion + 1}/${numberOfQuestion}`
 
-  if (currentQuestion + 1 <= 3) {
-    progressBar.style.stroke = '#CED0D3'
-  } else if (currentQuestion + 1 <= 6) {
-    progressBar.style.stroke = '#CED0D3'
-  } else if (currentQuestion + 1 <= 9) {
-    progressBar.style.stroke = '#CED0D3'
+  if (currentQuestion + 1 <= 9) {
+    progressBar.style.stroke = '#f1f1f1'
   } else {
     progressContainer.classList.add('hide')
   }
