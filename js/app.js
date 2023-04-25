@@ -270,6 +270,8 @@ sportsQuiz = [
   },
 ]
 
+let sound = new Audio('./assets/wrong.wav')
+
 const p = document.createElement('p')
 function showQuestion() {
   const question =
@@ -295,6 +297,7 @@ function showQuestion() {
         console.log(score)
       } else {
         console.log('incorrect')
+        sound.play()
         option.classList.add('incorrect')
       }
 
