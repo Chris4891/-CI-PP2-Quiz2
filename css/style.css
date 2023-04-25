@@ -277,9 +277,15 @@ img, picture, video, canvas, svg {
     padding: 20px 80px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s;
   }
 
-  #playAgain {
+  #submit-answer-btn:hover {
+    background-color: #6D9CEB;
+    transform: translateY(1px);
+  }
+
+  #play-again {
     background: #77AAFE;
     box-shadow: 0px 5px 14px rgba(67, 68, 69, 0.25);
     border-radius: 10px;
@@ -295,7 +301,7 @@ img, picture, video, canvas, svg {
     margin-top: 100px;
   }
 
-  #playAgain:hover {
+  #play-again:hover {
     background-color: #6D9CEB;
     transform: translateY(-5px);
   }

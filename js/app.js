@@ -1,19 +1,20 @@
 const math = document.getElementById('math')
 const geography = document.getElementById('geography')
 const sports = document.getElementById('sports')
-const userNameElement = document.getElementById('userName')
-const startQuiz = document.getElementById('startQuiz')
+const userNameElement = document.getElementById('user-name')
+const startQuiz = document.getElementById('start-quiz')
 const toast = document.getElementById('toast')
 const welcome = document.getElementById('welcome')
 const landing = document.getElementById('landing')
-const currentScreen = document.getElementById('currentScreen')
+const currentScreen = document.getElementById('current-screen')
 const questionScreen = document.getElementById('questionScreen')
-const playAgain = document.getElementById('playAgain')
+const playAgain = document.getElementById('play-again')
 
 var wrongSound = new Audio('./assets/wrong.wav')
 var correctSound = new Audio('./assets/correct.wav')
 var quizType = ''
 var userName = ''
+var isChoose = false
 
 function handleSelectedClick(clickedQuiz) {
   const quizes = [math, geography, sports]
@@ -291,10 +292,12 @@ function showQuestion() {
     option.addEventListener('click', function () {
       const selectedOption = this.innerHTML
       if (selectedOption === question.answer) {
+        isChoose = true
         option.classList.add('correct')
         score++
         correctSound.play()
       } else {
+        isChoose = true
         wrongSound.play()
         option.classList.add('incorrect')
       }
@@ -317,11 +320,14 @@ function showResult() {
 }
 
 nextQuestion.addEventListener('click', () => {
-  if (currentQuestion < mathQuiz.length - 1) {
-    currentQuestion++
-    showQuestion()
-  } else {
-    showResult()
+  if (isChoose) {
+    if (currentQuestion < mathQuiz.length - 1) {
+      currentQuestion++
+      showQuestion()
+    } else {
+      showResult()
+    }
+    isChoose = false
   }
 })
 
