@@ -6,6 +6,7 @@ const startQuiz = document.getElementById('startQuiz')
 const toast = document.getElementById('toast')
 const welcome = document.getElementById('welcome')
 const landing = document.getElementById('landing')
+const currentScreen = document.getElementById('currentScreen')
 
 var quizType = ''
 var userName = ''
@@ -47,12 +48,15 @@ startQuiz.addEventListener('click', e => {
     if (quizType === 'Math') {
       welcome.textContent = `Welcome to the math quiz, ${userName}`
       landing.classList.add('hide')
+      currentScreen.classList.add('math-quiz')
     } else if (quizType === 'Geography') {
       welcome.textContent = `Welcome to the geography quiz, ${userName}`
       landing.classList.add('hide')
+      currentScreen.classList.add('geography-quiz')
     } else {
       welcome.textContent = `Welcome to the sports quiz, ${userName}`
       landing.classList.add('hide')
+      currentScreen.classList.add('sports-quiz')
     }
   }
 })
