@@ -131,7 +131,7 @@ img, picture, video, canvas, svg {
     align-self: center;
   }
   
-  .quiz-box p{
+  .quiz-box h3{
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -149,7 +149,7 @@ img, picture, video, canvas, svg {
     border: 3px solid #DFE5FF;
   }
 
-  .quiz-button {
+  #startQuiz {
     background: #77AAFE;
     box-shadow: 0px 5px 14px rgba(119, 170, 254, 0.25);
     border-radius: 10px;
@@ -166,7 +166,7 @@ img, picture, video, canvas, svg {
     transition: all 0.3s ;
   }
 
-  .quiz-button:hover {
+  #startQuiz:hover {
     background-color: #5293FF;
 
   }
