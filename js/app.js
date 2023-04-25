@@ -11,6 +11,14 @@ const landing = document.getElementById('landing')
 const currentScreen = document.getElementById('current-screen')
 const questionScreen = document.getElementById('questionScreen')
 const playAgain = document.getElementById('play-again')
+const progressBar = document.getElementById('progress-bar')
+const questionNo = document.getElementById('progress-label')
+const progressContainer = document.getElementById('prog-container')
+const quizContainer = document.getElementById('quiz-container')
+const questionContainer = document.getElementById('question-container')
+const optionsContainer = document.getElementById('options-container')
+const nextQuestion = document.getElementById('submit-answer-btn')
+const resultContainer = document.getElementById('result-container')
 
 var wrongSound = new Audio('./assets/wrong.wav')
 var correctSound = new Audio('./assets/correct.wav')
@@ -51,6 +59,7 @@ startQuiz.addEventListener('click', e => {
     }, 2000)
   } else {
     showQuestion()
+    progressContainer.classList.remove('hide')
     toast.classList.add('hide')
     questionScreen.classList.remove('hide')
     if (quizType === 'Math') {
@@ -74,12 +83,6 @@ geography.addEventListener('click', () => handleSelectedClick(geography))
 sports.addEventListener('click', () => handleSelectedClick(sports))
 
 // WORK WITH QUESTIONS
-const quizContainer = document.getElementById('quiz-container')
-const questionContainer = document.getElementById('question-container')
-const optionsContainer = document.getElementById('options-container')
-const nextQuestion = document.getElementById('submit-answer-btn')
-const resultContainer = document.getElementById('result-container')
-
 var currentQuestion = 0
 var score = 0
 
@@ -139,6 +142,7 @@ function showResult() {
 
 nextQuestion.addEventListener('click', () => {
   if (isChoose) {
+    updateProgressBar()
     if (currentQuestion < mathQuiz.length - 1) {
       currentQuestion++
       showQuestion()
@@ -152,3 +156,23 @@ nextQuestion.addEventListener('click', () => {
 playAgain.addEventListener('click', () => {
   location.reload()
 })
+
+// WORK ON PROGRESS
+
+const numberOfQuestion = 10
+
+function updateProgressBar() {
+  const percentComplete = ((currentQuestion + 1) / numberOfQuestion) * 100
+  progressBar.style.strokeDasharray = `${percentComplete} 100`
+  questionNo.textContent = `${currentQuestion + 1}/${numberOfQuestion}`
+
+  if (currentQuestion + 1 <= 3) {
+    progressBar.style.stroke = '#CED0D3'
+  } else if (currentQuestion + 1 <= 6) {
+    progressBar.style.stroke = '#CED0D3'
+  } else if (currentQuestion + 1 <= 9) {
+    progressBar.style.stroke = '#CED0D3'
+  } else {
+    progressContainer.classList.add('hide')
+  }
+}

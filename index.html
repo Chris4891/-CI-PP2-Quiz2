@@ -52,6 +52,18 @@
             </div>
             <div id="result-container"></div>
             <button class="hide" id="play-again">Play again</button>
+            <div id="prog-container" class="progress-container hide">
+                <svg class="progress" viewBox="0 0 36 36">
+                  <path class="progress-background" d="M18 2.0845
+                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <path id="progress-bar" transform="rotate(-90 18 18)" 
+                        stroke-dasharray="0 100" d="M18 2.0845
+                                                      a 15.9155 15.9155 0 0 1 0 31.831
+                                                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+                </svg>
+                <div id="progress-label"></div>
+              </div>
         </section>
         <div id="toast" class="hide"></div>
     </div>
