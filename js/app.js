@@ -173,11 +173,15 @@ function showResult() {
 
 showQuestion()
 
-nextQuestion.addEventListener('click', function () {
+nextQuestion.addEventListener('click', () => {
   if (currentQuestion < mathQuiz.length - 1) {
     currentQuestion++
     showQuestion()
   } else {
     showResult()
   }
+})
+
+playAgain.addEventListener('click', () => {
+  location.reload()
 })
