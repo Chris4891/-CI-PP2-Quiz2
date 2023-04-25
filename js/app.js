@@ -9,7 +9,7 @@ const toast = document.getElementById('toast')
 const welcome = document.getElementById('welcome')
 const landing = document.getElementById('landing')
 const currentScreen = document.getElementById('current-screen')
-const questionScreen = document.getElementById('questionScreen')
+const questionScreen = document.getElementById('question-screen')
 const playAgain = document.getElementById('play-again')
 const progressBar = document.getElementById('progress-bar')
 const questionNo = document.getElementById('progress-label')
@@ -61,7 +61,7 @@ startQuiz.addEventListener('click', e => {
     showQuestion()
     progressContainer.classList.remove('hide')
     toast.classList.add('hide')
-    questionScreen.classList.remove('hide')
+    questionScreen.classList.remove('hide-q')
     if (quizType === 'Math') {
       welcome.textContent = `Welcome to the math quiz, ${userName}`
       landing.classList.add('hide')

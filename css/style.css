@@ -50,6 +50,10 @@ img, picture, video, canvas, svg {
     display: none;
   }
 
+  section.hide-q {
+    display: none;
+  }
+
   .show {
     display: flex;
   }
@@ -232,7 +236,7 @@ img, picture, video, canvas, svg {
   }
 
 
-  #questionScreen {
+  .question-screen {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -406,6 +410,4 @@ img, picture, video, canvas, svg {
     color: white;
     text-shadow: 0px 4px 4px rgba(27, 17, 17, 0.25);
   }
-  
-  
   
