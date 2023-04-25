@@ -4,6 +4,9 @@ const sports = document.getElementById('sports')
 const userNameElement = document.getElementById('userName')
 const startQuiz = document.getElementById('startQuiz')
 const toast = document.getElementById('toast')
+const welcome = document.getElementById('welcome')
+const landing = document.getElementById('landing')
+
 var quizType = ''
 var userName = ''
 
@@ -41,6 +44,16 @@ startQuiz.addEventListener('click', e => {
     }, 2000)
   } else {
     toast.classList.add('hide')
+    if (quizType === 'Math') {
+      welcome.textContent = `Welcome to the math quiz, ${userName}`
+      landing.classList.add('hide')
+    } else if (quizType === 'Geography') {
+      welcome.textContent = `Welcome to the geography quiz, ${userName}`
+      landing.classList.add('hide')
+    } else {
+      welcome.textContent = `Welcome to the sports quiz, ${userName}`
+      landing.classList.add('hide')
+    }
   }
 })
 
