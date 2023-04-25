@@ -17,28 +17,32 @@
             <p class="brief">Challenge your mind and test your knowledge with our trivia game!</p>
         </header>
 
-        <main>
-            <label class="labels" for="userName">Enter your name:</label>
-            <input id="userName" type="text" placeholder="username">
-
-            <h2 class="labels mt-56">Choose a quiz:</h2>
-            <div class="quiz-container">
-                <div id="math" class="quiz-box quiz-box-1" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.8">
-                    <h3>Math</h3>
-                    <img src="./assets/MAth.png" alt="Image representing the math quiz">
+        <p class="toast">You must enter your name</p>
+        <section class="hide">
+            <main>
+                <label class="labels" for="userName">Enter your name:</label>
+                <input id="userName" type="text" placeholder="username">
+    
+                <h2 class="labels mt-56">Choose a quiz:</h2>
+                <div class="quiz-container">
+                    <div id="math" class="quiz-box quiz-box-1" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.8">
+                        <h3>Math</h3>
+                        <img src="./assets/MAth.png" alt="Image representing the math quiz">
+                    </div>
+                    <div id="geography" class="quiz-box quiz-box-2" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.8">
+                        <h3>Geography</h3>
+                        <img src="./assets/geography.png" alt="Image representing the geography quiz">
+                    </div>
+                    <div id="sports" class="quiz-box quiz-box-3" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.8">
+                        <h3>Sports</h3>
+                        <img src="./assets/sports.png" alt="Image representing the sports quiz">
+                    </div>
                 </div>
-                <div id="geography" class="quiz-box quiz-box-2" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.8">
-                    <h3>Geography</h3>
-                    <img src="./assets/geography.png" alt="Image representing the geography quiz">
-                </div>
-                <div id="sports" class="quiz-box quiz-box-3" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.8">
-                    <h3>Sports</h3>
-                    <img src="./assets/sports.png" alt="Image representing the sports quiz">
-                </div>
-            </div>
-
-            <button id="startQuiz">Start Quiz</button>
-        </main>
+    
+                <button id="startQuiz">Start Quiz</button>
+            </main>
+        </section>
+       
     </div>
 
     <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
