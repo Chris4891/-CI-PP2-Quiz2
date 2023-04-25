@@ -50,6 +50,10 @@ img, picture, video, canvas, svg {
     display: none;
   }
 
+  .show {
+    display: flex;
+  }
+
   .container {
     background: linear-gradient(180deg, #7EAFFE 62.41%, rgba(126, 175, 254, 0) 62.55%, #F2F6FE 62.56%);
     width: 100%;
@@ -92,7 +96,6 @@ img, picture, video, canvas, svg {
     width: 49rem;
     height: 70px;
     background: #ECF4F8;
-    /* box-shadow: 0px 5px 14px rgba(116, 154, 230, 0.25); */
     box-shadow: 0px 5px 14px rgba(80, 80, 80, 0.25);
     border-radius: 10px;
     border: none;
@@ -167,7 +170,7 @@ img, picture, video, canvas, svg {
     border: 3px solid #DFE5FF;
   }
 
-  #startQuiz {
+  .button {
     background: #77AAFE;
     box-shadow: 0px 5px 14px rgba(119, 170, 254, 0.25);
     border-radius: 10px;
@@ -184,17 +187,15 @@ img, picture, video, canvas, svg {
     transition: all 0.3s ;
   }
 
-  #startQuiz:hover {
+  .button:hover {
     background-color: #5293FF;
-
+    transform: translateY(4px)
   }
 
   .selected {
     border: 7px solid #BCCE49;
     transition: all 0.1s;
   }
-
-
 
   /* CSS FOR QUESTION */
 
@@ -213,6 +214,10 @@ img, picture, video, canvas, svg {
 
   #questionScreen {
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #quiz-container {
@@ -251,7 +256,8 @@ img, picture, video, canvas, svg {
     text-align: center;
     color: #3A3B6B;
     cursor: pointer;
-    transition: all 0.3s ;
+    transition: all 0.3s;
+    border-top: 5px solid #D7D7D7;
   }
 
   #options-container button:hover {
@@ -273,6 +279,27 @@ img, picture, video, canvas, svg {
     cursor: pointer;
   }
 
+  #playAgain {
+    background: #77AAFE;
+    box-shadow: 0px 5px 14px rgba(67, 68, 69, 0.25);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 19.7541px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 80px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 100px;
+  }
+
+  #playAgain:hover {
+    background-color: #6D9CEB;
+    transform: translateY(-5px);
+  }
+
   #options-container button.correct {
     color: white;
     background: #6ED158;
@@ -283,4 +310,12 @@ img, picture, video, canvas, svg {
     background-color: #4A4647;
     color: white;
     border-top: 5px solid #353132;
+  }
+
+  #result-container {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
   }

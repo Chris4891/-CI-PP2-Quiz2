@@ -8,6 +8,7 @@ const welcome = document.getElementById('welcome')
 const landing = document.getElementById('landing')
 const currentScreen = document.getElementById('currentScreen')
 const questionScreen = document.getElementById('questionScreen')
+const playAgain = document.getElementById('playAgain')
 
 var quizType = ''
 var userName = ''
@@ -152,11 +153,11 @@ function showQuestion() {
         console.log('incorrect')
         option.classList.add('incorrect')
       }
-      // disable all buttons
+
       const buttons = optionsContainer.querySelectorAll('button')
-      for (let j = 0; j < buttons.length; j++) {
-        buttons[j].removeEventListener('click', arguments.callee)
-        buttons[j].setAttribute('disabled', 'disabled')
+      for (let y = 0; y < buttons.length; y++) {
+        buttons[y].removeEventListener('click', arguments.callee)
+        buttons[y].setAttribute('disabled', 'disabled')
       }
     })
 
@@ -167,6 +168,7 @@ function showQuestion() {
 function showResult() {
   quizContainer.style.display = 'none'
   resultContainer.innerHTML = `You got ${score} out of ${mathQuiz.length} questions correct!`
+  playAgain.classList.add('show')
 }
 
 showQuestion()
