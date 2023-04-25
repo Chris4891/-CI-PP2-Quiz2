@@ -300,10 +300,20 @@ img, picture, video, canvas, svg {
     transform: translateY(-5px);
   }
 
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  
   #options-container button.correct {
     color: white;
     background: #6ED158;
     border-top: 5px solid #5BC244;
+    animation: pulse 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
   }
 
   
@@ -314,12 +324,14 @@ img, picture, video, canvas, svg {
     75% { transform: translateX(-5px) rotate(-5deg); }
     100% { transform: translateX(0); }
   }
-  
+
   #options-container button.incorrect {
     background-color: #4A4647;
     color: white;
     border-top: 5px solid #353132;
     animation: shake 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
   }
 
   #result-container {

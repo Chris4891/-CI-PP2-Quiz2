@@ -10,6 +10,8 @@ const currentScreen = document.getElementById('currentScreen')
 const questionScreen = document.getElementById('questionScreen')
 const playAgain = document.getElementById('playAgain')
 
+var wrongSound = new Audio('./assets/wrong.wav')
+var correctSound = new Audio('./assets/correct.wav')
 var quizType = ''
 var userName = ''
 
@@ -269,9 +271,6 @@ sportsQuiz = [
     answer: '1896',
   },
 ]
-
-let wrongSound = new Audio('./assets/wrong.wav')
-let correctSound = new Audio('./assets/correct.wav')
 
 const p = document.createElement('p')
 function showQuestion() {
