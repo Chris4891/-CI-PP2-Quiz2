@@ -71,7 +71,7 @@ sports.addEventListener('click', () => handleSelectedClick(sports))
 const quizContainer = document.getElementById('quiz-container')
 const questionContainer = document.getElementById('question-container')
 const optionsContainer = document.getElementById('options-container')
-const submitBtn = document.getElementById('submit-answer-btn')
+const nextQuestion = document.getElementById('submit-answer-btn')
 const resultContainer = document.getElementById('result-container')
 
 var currentQuestion = 0
@@ -95,9 +95,9 @@ const mathQuiz = [
   },
 ]
 
+const p = document.createElement('p')
 function showQuestion() {
   const question = mathQuiz[currentQuestion]
-  const p = document.createElement('p')
   p.innerHTML = question.question
   questionContainer.appendChild(p)
   optionsContainer.innerHTML = ''
@@ -131,7 +131,7 @@ function showResult() {
 
 showQuestion()
 
-submitBtn.addEventListener('click', function () {
+nextQuestion.addEventListener('click', function () {
   if (currentQuestion < mathQuiz.length - 1) {
     currentQuestion++
     showQuestion()
