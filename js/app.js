@@ -144,20 +144,22 @@ function showQuestion() {
     option.addEventListener('click', function () {
       const selectedOption = this.innerHTML
       if (selectedOption === question.answer) {
-        console.log('correct')
         option.classList.add('correct')
         score++
+        console.log('correct')
+        console.log(score)
       } else {
         console.log('incorrect')
         option.classList.add('incorrect')
       }
-      for (let j = 0; j < optionsContainer.children.length; j++) {
-        optionsContainer.children[j].removeEventListener(
-          'click',
-          arguments.callee
-        )
+      // disable all buttons
+      const buttons = optionsContainer.querySelectorAll('button')
+      for (let j = 0; j < buttons.length; j++) {
+        buttons[j].removeEventListener('click', arguments.callee)
+        buttons[j].setAttribute('disabled', 'disabled')
       }
     })
+
     optionsContainer.appendChild(option)
   }
 }
