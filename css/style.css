@@ -47,7 +47,7 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
   }
 
   .website-logo {
@@ -56,8 +56,8 @@ img, picture, video, canvas, svg {
   }
 
   .brief {
-    font-style: normal;
-    font-weight: 500;
+    letter-spacing: 0.075em;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 30px;
     text-align: center;
