@@ -139,6 +139,7 @@ function handleOptionClick(option, question) {
 function showResult() {
   quizContainer.style.display = 'none'
   resultContainer.innerHTML = `You got ${score} out of ${mathQuiz.length} questions correct!`
+  resultContainer.classList.remove('hide')
   playAgain.classList.add('show')
 }
 

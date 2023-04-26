@@ -110,6 +110,7 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 50px;
   }
 
@@ -416,9 +417,12 @@ img, picture, video, canvas, svg {
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-    color: #FFFFFF;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #353132;
+    padding: 21px;
+    border-radius: 10px;
   }
-
 
   .progress-container {
     position: absolute;
