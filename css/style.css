@@ -244,7 +244,6 @@ img, picture, video, canvas, svg {
   }
 
   .selected {
-    /* border: 7px solid #BCCE49; */
     transition: all 0.1s;
     background: linear-gradient(209.51deg, #5BC244 1.94%, #6ED158 31.32%, #66D14E 52.67%);
     position: relative;
@@ -269,7 +268,6 @@ img, picture, video, canvas, svg {
   }
 
   /* CSS FOR QUESTION */
-
   .math-quiz {
     background: linear-gradient(180deg, #FF6076 54.75%, rgba(126, 175, 254, 0) 54.76%, #F2F6FE 54.77%);
   }
@@ -281,7 +279,6 @@ img, picture, video, canvas, svg {
   .sports-quiz {
     background: linear-gradient(180deg, #FFB55E 54.75%, rgba(126, 175, 254, 0) 54.76%, #F2F6FE 54.77%);
   }
-
 
   .question-screen {
     margin-top: 60px;
@@ -383,7 +380,6 @@ img, picture, video, canvas, svg {
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
   }
-
   
   #options-container button.correct {
     color: white;
@@ -469,7 +465,6 @@ img, picture, video, canvas, svg {
   }
   input {
     width: 100%;
-    /* max-width: 500px; */
     margin-top: 10px;
   }
   .quiz-box {
@@ -609,7 +604,6 @@ img, picture, video, canvas, svg {
     font-weight: 500;
     font-size: 18px;
   }
-
 
   #options-container button {
     border-radius: 30px;

@@ -21,9 +21,9 @@ const nextQuestion = document.getElementById('submit-answer-btn')
 const resultContainer = document.getElementById('result-container')
 const quizResult = document.getElementById('result-container')
 
-var wrongSound = new Audio('./assets/wrong.wav')
-var correctSound = new Audio('./assets/correct.wav')
-var finishSound = new Audio('./assets/finish.mp3')
+var wrongSound = new Audio('./assets/audio/wrong.wav')
+var correctSound = new Audio('./assets/audio/correct.wav')
+var finishSound = new Audio('./assets/audio/finish.mp3')
 var quizType = ''
 var userName = ''
 var isChoose = false
