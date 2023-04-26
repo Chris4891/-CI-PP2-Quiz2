@@ -23,6 +23,7 @@ const quizResult = document.getElementById('result-container')
 
 var wrongSound = new Audio('./assets/wrong.wav')
 var correctSound = new Audio('./assets/correct.wav')
+var finishSound = new Audio('./assets/finish.mp3')
 var quizType = ''
 var userName = ''
 var isChoose = false
@@ -179,4 +180,5 @@ function updateProgressBar() {
 
 function celebrate() {
   quizResult.classList.add('celebrate')
+  finishSound.play()
 }
