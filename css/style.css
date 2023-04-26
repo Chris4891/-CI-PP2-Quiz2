@@ -447,8 +447,8 @@ img, picture, video, canvas, svg {
   }
 
   .brief {
-    font-size: 0.7rem;
-    max-width: 200px;
+    font-size: 0.9rem;
+    max-width: 290px;
   }
 
   .website-logo {
@@ -468,7 +468,6 @@ img, picture, video, canvas, svg {
 
   input {
     width: 100%;
-    /* max-width: 500px; */
     margin-top: 10px;
   }
 
@@ -497,7 +496,7 @@ img, picture, video, canvas, svg {
   }
 
   .brief {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .website-logo {
