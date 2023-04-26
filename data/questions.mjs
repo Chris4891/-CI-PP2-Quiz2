@@ -127,8 +127,7 @@ export const sportsQuiz = [
     answer: 'France',
   },
   {
-    question:
-      'Who holds the record for the most Olympic gold medals ever won by an athlete?',
+    question: 'Who has won the most Olympic gold medals ever?',
     options: [
       'Michael Phelps',
       'Usain Bolt',
@@ -143,8 +142,7 @@ export const sportsQuiz = [
     answer: 'West Indies',
   },
   {
-    question:
-      'What is the highest score you can achieve in a single turn in bowling?',
+    question: 'What is the highest score possible in a single turn in bowling?',
     options: ['10', '50', '100', '300'],
     answer: '300',
   },

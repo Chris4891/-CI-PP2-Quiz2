@@ -506,4 +506,20 @@ img, picture, video, canvas, svg {
   .labels {
     font-size: 1rem;
   }
+
+  #question-container p {
+    padding: 30px 35px;
+    border: 1px solid #F2F6FE;
+    border-radius: 21px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+
+  #options-container button {
+    border-radius: 30px;
+    padding: 20px 55px;
+    font-weight: 700;
+    font-size: 18px;
+  }
 }
