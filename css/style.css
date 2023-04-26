@@ -9,6 +9,10 @@
 html, body {
     height: 100%;
   }
+
+  html {
+    scroll-behavior: smooth
+  }
   
 body {
     line-height: 1.5;
@@ -33,6 +37,47 @@ img, picture, video, canvas, svg {
     isolation: isolate;
   }
 
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f0f0f0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #353132;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #454341;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #353132 #f0f0f0;
+  }
+
+  *::-moz-scrollbar-thumb {
+    background-color: #353132;
+    border-radius: 10px;
+  }
+
+  *::-moz-scrollbar-thumb:hover {
+    background-color: #454341;
+  }
+
+  *::-ms-scrollbar {
+    width: 8px;
+  }
+
+  *::-ms-scrollbar-thumb {
+    background-color: #353132;
+    border-radius: 10px;
+  }
+
+  *::-ms-scrollbar-thumb:hover {
+    background-color: #454341;
+  }
+  
   #toast {
     padding: 25px 60px;
     background-color: white;
