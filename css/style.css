@@ -534,6 +534,23 @@ img, picture, video, canvas, svg {
   }
 }
 
+@keyframes celebrate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.celebrate {
+  animation: celebrate 1s ease-in-out;
+}
+
+
 /* Tablet */
 @media only screen and (min-width: 725px) and (max-width: 1024px) {
   .container {

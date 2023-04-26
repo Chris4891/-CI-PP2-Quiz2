@@ -19,6 +19,7 @@ const questionContainer = document.getElementById('question-container')
 const optionsContainer = document.getElementById('options-container')
 const nextQuestion = document.getElementById('submit-answer-btn')
 const resultContainer = document.getElementById('result-container')
+const quizResult = document.getElementById('result-container')
 
 var wrongSound = new Audio('./assets/wrong.wav')
 var correctSound = new Audio('./assets/correct.wav')
@@ -148,6 +149,7 @@ nextQuestion.addEventListener('click', () => {
       showQuestion()
     } else {
       showResult()
+      celebrate()
     }
     isChoose = false
   }
@@ -171,4 +173,10 @@ function updateProgressBar() {
   } else {
     progressContainer.classList.add('hide')
   }
+}
+
+// WORK ON FINAL RESULT
+
+function celebrate() {
+  quizResult.classList.add('celebrate')
 }
