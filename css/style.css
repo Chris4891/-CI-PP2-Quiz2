@@ -381,7 +381,6 @@ img, picture, video, canvas, svg {
     height: 80px;
     top: 30px;
     left: 50px;
-    
   }
   
   .progress {
@@ -479,6 +478,14 @@ img, picture, video, canvas, svg {
     padding: 15px 48px;
     font-weight: 700;
     font-size: 15px;
+  }
+
+  .progress-container {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 30px;
+    left: 10px;
   }
 }
 
