@@ -40,10 +40,9 @@ export const mathQuiz = [
     answer: '180 degrees',
   },
   {
-    question:
-      'What is the equation of a straight line in slope-intercept form?',
-    options: ['y = mx + c', 'x = my + c', 'y = mx - c', 'x = my - c'],
-    answer: 'y = mx + c',
+    question: 'What is the square root of 169?',
+    options: ['10', '12', '13', '15'],
+    answer: '13',
   },
   {
     question: 'What is the value of 2² + 3³?',
@@ -84,7 +83,7 @@ export const geographyQuiz = [
     answer: 'Japan',
   },
   {
-    question: 'In which European country would you find the city of Barcelona?',
+    question: 'Where is the city of Barcelona located?',
     options: ['Italy', 'Portugal', 'France', 'Spain'],
     answer: 'Spain',
   },

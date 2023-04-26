@@ -458,6 +458,28 @@ img, picture, video, canvas, svg {
   .labels {
     font-size: 1rem;
   }
+
+  #options-container {
+    margin: 50px 0 60px 0;
+    gap: 15px;
+  }
+
+  
+  #question-container p {
+    padding: 15px 15px;
+    border: 1px solid #F2F6FE;
+    border-radius: 21px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+
+  #options-container button {
+    border-radius: 30px;
+    padding: 15px 48px;
+    font-weight: 700;
+    font-size: 15px;
+  }
 }
 
 /* Tablet */
