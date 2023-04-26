@@ -141,27 +141,22 @@ export const sportsQuiz = [
     answer: 'West Indies',
   },
   {
-    question: 'What is the highest score possible in a single turn in bowling?',
+    question: "What's the maximum score in a single turn in bowling?",
     options: ['10', '50', '100', '300'],
     answer: '300',
   },
   {
-    question: 'Who is the all-time leading scorer in the NBA?',
-    options: [
-      'Michael Jordan',
-      'Kareem Abdul-Jabbar',
-      'Kobe Bryant',
-      'LeBron James',
-    ],
-    answer: 'Kareem Abdul-Jabbar',
+    question: 'What is the tallest mountain in the world?',
+    options: ['Mount Everest', 'K2', 'Mount Kilimanjaro', 'Mount Denali'],
+    answer: 'Mount Everest',
   },
   {
-    question: 'Which country won the most medals at the 2021 Tokyo Olympics?',
-    options: ['United States', 'China', 'Russia', 'Japan'],
-    answer: 'China',
+    question: 'What is the boiling point of water at sea level?',
+    options: ['32°F (0°C)', '50°F (10°C)', '212°F (100°C)', '250°F (121°C)'],
+    answer: '212°F (100°C)',
   },
   {
-    question: 'Which country won the most recent Rugby World Cup in 2019?',
+    question: 'Which country won the 2019 Rugby World Cup?',
     options: ['New Zealand', 'England', 'South Africa', 'Australia'],
     answer: 'South Africa',
   },
@@ -171,7 +166,7 @@ export const sportsQuiz = [
     answer: 'Rugby',
   },
   {
-    question: 'Which athlete has won the most Olympic medals of all time?',
+    question: 'Who has won the most Olympic medals of all time?',
     options: [
       'Michael Phelps',
       'Usain Bolt',
@@ -181,7 +176,7 @@ export const sportsQuiz = [
     answer: 'Michael Phelps',
   },
   {
-    question: 'In what year were the first modern Olympic Games held?',
+    question: 'When were the first modern Olympic Games held?',
     options: ['1886', '1896', '1906', '1916'],
     answer: '1896',
   },
