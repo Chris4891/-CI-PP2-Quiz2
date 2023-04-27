@@ -41,3 +41,18 @@ Quizify's UI will adjust to fit the size of your screen, whether you're using a 
 To do this, the app use CSS media queries and flexible layouts that adjust to the screen size of the device.
 This guarantees that all features and capabilities are available to users regardless of the device they are using
 ![Frontend Developer (5)](https://user-images.githubusercontent.com/109537705/234837968-7ba8752c-f494-4eb8-955f-a7a2f6a275aa.png)
+
+## Usage
+1. To play the game, go to 'www.www' and you'll be directed to the main page.<br/>
+2. Choose one of the three quizzes by clicking on the corresponding quiz box.<br/>
+3. Enter your name in the input field and click on the "Start Quiz" button.<br/>
+4. When you begin the quiz, Choose your answer by clicking on one of the options, then click the "Next" button to go to the next question.<br/>
+5. At the end of the quiz, you will see your final score and the option to play again or choose a different quiz.
+
+## Testing
+The HTML and CSS code for this application were validated throughout development using the W3C Markup Validation Service and the W3C CSS Validation Service, respectively. There were no problems found in the HTML or CSS code.
+<img src='https://user-images.githubusercontent.com/109537705/234841847-97ed5ddb-8db0-4b0d-933a-1ee72922a062.png' width='600px'/>
+
+The application was also tested on different devices to ensure that it is responsive and functional on all screen sizes.
+
+
