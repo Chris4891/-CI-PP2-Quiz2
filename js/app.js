@@ -155,6 +155,7 @@ nextQuestion.addEventListener('click', () => {
 })
 
 playAgain.addEventListener('click', () => {
+  userName = ''
   location.reload()
 })
 
