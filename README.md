@@ -55,4 +55,6 @@ The HTML and CSS code for this application were validated throughout development
 
 The application was also tested on different devices to ensure that it is responsive and functional on all screen sizes.
 
-
+## Libraries and Frameworks
+* Tilt.js (https://gijsroge.github.io/tilt.js/) is a JavaScript library that allows you to add a 3D effect to DOM elements on mouse movement.
+* Vanilla JavaScript is used to implement the game logic and interact with the HTML and CSS.
