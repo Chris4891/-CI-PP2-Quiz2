@@ -19,4 +19,4 @@
 * Play again button to restart the quiz
 * Deffrient theme for every quiz
  
- <img src='https://user-images.githubusercontent.com/109537705/234818248-d7d6b3eb-7c03-4cf2-9cdb-c2ea617d67b1.png' width='auto'/>
+![Frontend Developer (4)](https://user-images.githubusercontent.com/109537705/234822133-e941dece-1687-4094-ab0d-cb6699bff3e5.png)
