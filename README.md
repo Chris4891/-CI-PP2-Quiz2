@@ -17,6 +17,21 @@
 * Sound effects for correct and incorrect answers and final result
 * Custom toast message to display errors
 * Play again button to restart the quiz
+* Vanilla JavaScript is used to implement the game logic and interact with the HTML and CSS
 * Deffrient theme for every quiz
  
 ![Frontend Developer (4)](https://user-images.githubusercontent.com/109537705/234822133-e941dece-1687-4094-ab0d-cb6699bff3e5.png)
+
+## UX Design
+* The app is designed to be simple and user-friendly.
+* The home page includes a brief description of the app and prompts the user to enter their name and choose a quiz category.
+* Each quiz category box includes a cool tilt effect to make it more engaging and fun to use.
+* Once the user chooses a quiz category and clicks the "Start Quiz" button, the quiz page is displayed.
+
+![tttt](https://user-images.githubusercontent.com/109537705/234825125-1ded8e0c-cf01-45b4-8cdd-00dd7de8f6c3.gif)
+
+* The quiz page includes a progress bar to show the user how many questions are remaining in the quiz.
+* The question and answer options are displayed in separate containers to make it easy to read and navigate.
+* Cool animation effects and sound effects are included to provide feedback to the user on whether their answer was correct or incorrect.
+* Finally, a "Play Again" button is included to allow the user to restart the quiz.
+
