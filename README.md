@@ -17,3 +17,6 @@
 * Sound effects for correct and incorrect answers and final result
 * Custom toast message to display errors
 * Play again button to restart the quiz
+* Deffrient theme for every quiz
+ 
+ <img src='https://user-images.githubusercontent.com/109537705/234818248-d7d6b3eb-7c03-4cf2-9cdb-c2ea617d67b1.png' width='auto'/>
