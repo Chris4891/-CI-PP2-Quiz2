@@ -92,15 +92,11 @@ img, picture, video, canvas, svg {
   }
 
   .hide {
-    display: none;
+    display: none !important;
   }
 
   section.hide-q {
     display: none;
-  }
-
-  .show {
-    display: flex;
   }
 
   .container {
@@ -135,7 +131,7 @@ img, picture, video, canvas, svg {
     color: #FFFFFF
   }
 
-  main {
+  .landing {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -294,7 +290,7 @@ img, picture, video, canvas, svg {
     align-items: center;
   }
 
-  #question-container p {
+  #question-container  {
     padding: 40px 90px;
     border: 1px solid #F2F6FE;
     border-radius: 21px;
@@ -508,7 +504,7 @@ img, picture, video, canvas, svg {
   }
 
   
-  #question-container p {
+  #question-container {
     padding: 15px 15px;
     border: 1px solid #F2F6FE;
     border-radius: 21px;
@@ -597,7 +593,7 @@ img, picture, video, canvas, svg {
     font-size: 1rem;
   }
 
-  #question-container p {
+  #question-container {
     padding: 30px 35px;
     border: 1px solid #F2F6FE;
     border-radius: 21px;

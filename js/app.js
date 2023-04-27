@@ -88,8 +88,6 @@ sports.addEventListener('click', () => handleSelectedClick(sports))
 var currentQuestion = 0
 var score = 0
 
-const p = document.createElement('p')
-
 function showQuestion() {
   const question =
     quizType === 'Math'
@@ -98,8 +96,7 @@ function showQuestion() {
       ? geographyQuiz[currentQuestion]
       : sportsQuiz[currentQuestion]
 
-  p.innerHTML = question.question
-  questionContainer.appendChild(p)
+  questionContainer.innerHTML = question.question
   optionsContainer.innerHTML = ''
 
   for (let i = 0; i < question.options.length; i++) {
@@ -137,10 +134,10 @@ function handleOptionClick(option, question) {
 }
 
 function showResult() {
+  resultContainer.classList.remove('hide')
+  playAgain.classList.remove('hide')
   quizContainer.style.display = 'none'
   resultContainer.innerHTML = `You got ${score} out of ${mathQuiz.length} questions correct!`
-  resultContainer.classList.remove('hide')
-  playAgain.classList.add('show')
 }
 
 nextQuestion.addEventListener('click', () => {

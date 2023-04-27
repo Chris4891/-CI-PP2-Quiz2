@@ -17,8 +17,8 @@
             <p id="welcome" class="brief">Challenge your mind and test your knowledge with our trivia game!</p>
         </header>
        
-        <section id="landing">
-            <main>
+        <main>
+            <section class="landing" id="landing">
                 <label class="labels" for="user-name">Enter your name:</label>
                 <input id="user-name" type="text" placeholder="username">
     
@@ -39,14 +39,14 @@
                 </div>
     
                 <button class="button" id="start-quiz">Start Quiz</button>
-            </main>
-        </section>
+            </section>
+        </main>
 
 
         <!-- Quize Page -->
         <section class="question-screen hide-q" id="question-screen">
             <div id="quiz-container">
-                <div id="question-container"></div>
+                <h2 id="question-container">Question HERE!</h2>
                 <div id="options-container"></div>
                 <button id="submit-answer-btn">Next</button>
             </div>
@@ -68,7 +68,7 @@
         <div id="toast" class="hide"></div>
     </div>
 
-    <script defer type="text/javascript" src="./js/vanilla-tilt.js"></script>
-    <script defer type="module" src="./js/app.js"></script>
+    <script defer src="./js/vanilla-tilt.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>
