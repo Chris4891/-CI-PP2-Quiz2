@@ -4,7 +4,7 @@
 <!-- # Quizify -->
 <img src='https://user-images.githubusercontent.com/109537705/234806508-ac3e2a7b-6e43-4437-9dd7-575d369f6b36.png' width='300px'/>
 <b>GitHub Repo https://github.com/Chris4891/CI-PP2-Quiz</b> <br /> 
-<b>Live Demo https://github.com/Chris4891/CI-PP2-Quiz</b> 
+<b>Live Demo https://chris4891.github.io/CI-PP2-Quiz</b> 
 <hr/>
 
 # About us
@@ -43,7 +43,7 @@ This guarantees that all features and capabilities are available to users regard
 ![Frontend Developer (5)](https://user-images.githubusercontent.com/109537705/234837968-7ba8752c-f494-4eb8-955f-a7a2f6a275aa.png)
 
 ## Usage
-1. To play the game, go to 'www.www' and you'll be directed to the main page.<br/>
+1. To play the game, go to `https://chris4891.github.io/CI-PP2-Quiz` and you'll be directed to the main page.<br/>
 2. Choose one of the three quizzes by clicking on the corresponding quiz box.<br/>
 3. Enter your name in the input field and click on the "Start Quiz" button.<br/>
 4. When you begin the quiz, Choose your answer by clicking on one of the options, then click the "Next" button to go to the next question.<br/>
