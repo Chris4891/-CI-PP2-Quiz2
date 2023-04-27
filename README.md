@@ -35,3 +35,9 @@
 * Cool animation effects and sound effects are included to provide feedback to the user on whether their answer was correct or incorrect.
 * Finally, a "Play Again" button is included to allow the user to restart the quiz.
 
+## Responsive Design
+Quizify is built with a responsive layout, so it works on a variety of devices.
+Quizify's UI will adjust to fit the size of your screen, whether you're using a desktop computer, tablet, or mobile phone, providing an excellent viewing and user experience.
+To do this, the app use CSS media queries and flexible layouts that adjust to the screen size of the device.
+This guarantees that all features and capabilities are available to users regardless of the device they are using
+![Frontend Developer (5)](https://user-images.githubusercontent.com/109537705/234837968-7ba8752c-f494-4eb8-955f-a7a2f6a275aa.png)
