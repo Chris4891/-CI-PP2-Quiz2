@@ -13,6 +13,7 @@
 ![Frontend Developer (4)](https://user-images.githubusercontent.com/109537705/234822133-e941dece-1687-4094-ab0d-cb6699bff3e5.png)
 
 ## Features
+### Existing Features
 * Multiple quiz categories to choose from, including Math, Geography, and Sports
 * Progress bar to show how many questions are remaining in the quiz
 * Cool animation effects when answering questions correctly or incorrectly
@@ -22,11 +23,11 @@
 * Vanilla JavaScript is used to implement the game logic and interact with the HTML and CSS
 * Deffrient theme for every quiz
 
-## Future Implementations
-Future implementations for Quizify could include:
-* More quiz categories
-* User accounts and scores
-* Social sharing and leaderboards
+### Future Implementations
+In the future, Quizify may include additional features such as:
+* Leaderboards: Introducing a competitive element by implementing leaderboards where users can compare their scores with others.
+* More quiz categories: Expanding the range of quiz categories to reach a larger audience and provide more diverse learning opportunities.
+* Social sharing: Integrating social media sharing functionality to allow users to share their quiz results and challenge their friends.
 
 ## UX Design
 * The app is designed to be simple and user-friendly.
@@ -87,7 +88,7 @@ The technologies used for Quizify include:
 
 ## Libraries & Programs Used
 Quizify was created using the following libraries and programs:
-* Vanilla Tilt
+* Vanilla Tilt: https://micku7zu.github.io/vanilla-tilt.js/
 * Google Fonts
 * Figma
 * GitHub
@@ -102,6 +103,11 @@ The application was also tested on different devices to ensure that it is respon
 
 ## Performance
 Quizify was designed with performance in mind, with optimized images and minimal code to ensure fast load times
+
+![perfoo](https://user-images.githubusercontent.com/109537705/235115820-48a0cce6-2336-47ce-ba6a-746e8a71fa02.gif)
+
+## Deployment
+Quizify is deployed using GitHub Pages. Users can also fork the GitHub repository or make a local clone for development.
 
 ## Credits
 This project was created by me as part of a coding challenge. <br/>
