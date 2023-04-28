@@ -227,7 +227,7 @@ img, picture, video, canvas, svg {
     cursor: pointer;
     border: none;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.1rem;
     line-height: 30px;
     margin-top: 50px;
@@ -334,7 +334,7 @@ img, picture, video, canvas, svg {
     background: #77AAFE;
     box-shadow: 0px 5px 14px rgba(119, 170, 254, 0.25);
     border-radius: 10px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
