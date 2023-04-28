@@ -136,6 +136,7 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 25px;
   }
 
   input {
@@ -607,4 +608,45 @@ img, picture, video, canvas, svg {
     font-weight: 700;
     font-size: 18px;
   }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  color: #353132;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.social-icons a {
+  transition: all 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.github {
+  margin-bottom: -5px;
+  display: inline-block;
+}
+
+.credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #353132;
+  font-weight: 600;
 }
