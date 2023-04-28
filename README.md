@@ -42,7 +42,7 @@ In the future, Quizify may include additional features such as:
 * Cool animation effects and sound effects are included to provide feedback to the user on whether their answer was correct or incorrect.
 * Finally, a "Play Again" button is included to allow the user to restart the quiz.
 
-## Design
+## Mobile, Tablet, Desktop
 Quizify has a modern and minimalist design, with a focus on usability and user experience.
 The design is clean and simple, with a clear hierarchy of information and a consistent layout throughout the game.
 The design is intended to be visually appealing without being distracting, so users can focus on the game.
