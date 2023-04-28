@@ -9,6 +9,8 @@
 
 # About us
   Quizify is a fun and engaging trivia game that challenges your knowledge and helps you learn new things in different fields. The game consists of multiple-choice questions with a timer to make it more challenging. You can choose from three different quizzes: Math, Geography, and Sports.
+ 
+![Frontend Developer (4)](https://user-images.githubusercontent.com/109537705/234822133-e941dece-1687-4094-ab0d-cb6699bff3e5.png)
 
 ## Features
 * Multiple quiz categories to choose from, including Math, Geography, and Sports
@@ -19,8 +21,12 @@
 * Play again button to restart the quiz
 * Vanilla JavaScript is used to implement the game logic and interact with the HTML and CSS
 * Deffrient theme for every quiz
- 
-![Frontend Developer (4)](https://user-images.githubusercontent.com/109537705/234822133-e941dece-1687-4094-ab0d-cb6699bff3e5.png)
+
+## Future Implementations
+Future implementations for Quizify could include:
+* More quiz categories
+* User accounts and scores
+* Social sharing and leaderboards
 
 ## UX Design
 * The app is designed to be simple and user-friendly.
@@ -35,12 +41,36 @@
 * Cool animation effects and sound effects are included to provide feedback to the user on whether their answer was correct or incorrect.
 * Finally, a "Play Again" button is included to allow the user to restart the quiz.
 
+## Design
+Quizify has a modern and minimalist design, with a focus on usability and user experience.
+The design is clean and simple, with a clear hierarchy of information and a consistent layout throughout the game.
+The design is intended to be visually appealing without being distracting, so users can focus on the game.
+
 ## Responsive Design
 Quizify is built with a responsive layout, so it works on a variety of devices.
 Quizify's UI will adjust to fit the size of your screen, whether you're using a desktop computer, tablet, or mobile phone, providing an excellent viewing and user experience.
 To do this, the app use CSS media queries and flexible layouts that adjust to the screen size of the device.
 This guarantees that all features and capabilities are available to users regardless of the device they are using
 ![Frontend Developer (5)](https://user-images.githubusercontent.com/109537705/234837968-7ba8752c-f494-4eb8-955f-a7a2f6a275aa.png)
+
+## Colour Scheme
+The color scheme of Quizify is primarily white and blue, with accents of yellow and red for visual interest.
+The blue color is used for the primary buttons and interactive elements.
+
+<img src='https://user-images.githubusercontent.com/109537705/235104827-518bd199-0bc8-4933-aaa7-83ee187fb94c.png' width='200px'/>
+
+## Typography
+Quizify uses the Poppins font family for a modern and clean look. The font is used in different weights and sizes to create hierarchy and visual interest throughout the game
+
+## Imagery
+Quizify uses simple and minimalistic imagery to represent the different quizzes. The images are designed to be visually appealing and recognizable, while also being easy to understand and navigate
+
+<img src='https://user-images.githubusercontent.com/109537705/235105792-480bb9fc-f434-4a90-baeb-4d7c10499cff.png' width='400px'/>
+
+## Wireframes
+Wireframes were created using Figma to plan out the layout and functionality of Quizify.
+The wireframes were used to ensure that the game had a clear and consistent design and layout
+![Figma](https://user-images.githubusercontent.com/109537705/235107108-c68875e6-8987-4808-871b-e61d685257eb.PNG)
 
 ## Usage
 1. To play the game, go to `https://chris4891.github.io/CI-PP2-Quiz` and you'll be directed to the main page.<br/>
@@ -49,15 +79,29 @@ This guarantees that all features and capabilities are available to users regard
 4. When you begin the quiz, Choose your answer by clicking on one of the options, then click the "Next" button to go to the next question.<br/>
 5. At the end of the quiz, you will see your final score and the option to play again or choose a different quiz.
 
+## Technologies Used
+The technologies used for Quizify include:
+* HTML
+* CSS
+* JavaScript
+
+## Libraries & Programs Used
+Quizify was created using the following libraries and programs:
+* Vanilla Tilt
+* Google Fonts
+* Figma
+* GitHub
+* Visual Studio Code
+
 ## Testing
 The HTML and CSS code for this application were validated throughout development using the W3C Markup Validation Service and the W3C CSS Validation Service, respectively. There were no problems found in the HTML or CSS code.
 <img src='https://user-images.githubusercontent.com/109537705/234841847-97ed5ddb-8db0-4b0d-933a-1ee72922a062.png' width='600px'/>
 
 The application was also tested on different devices to ensure that it is responsive and functional on all screen sizes.
 
-## Libraries and Frameworks
-* Tilt.js (https://gijsroge.github.io/tilt.js/) is a JavaScript library that allows you to add a 3D effect to DOM elements on mouse movement.
-* Vanilla JavaScript is used to implement the game logic and interact with the HTML and CSS.
+
+## Performance
+Quizify was designed with performance in mind, with optimized images and minimal code to ensure fast load times
 
 ## Credits
 This project was created by me as part of a coding challenge. <br/>
