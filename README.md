@@ -42,12 +42,12 @@ In the future, Quizify may include additional features such as:
 * Cool animation effects and sound effects are included to provide feedback to the user on whether their answer was correct or incorrect.
 * Finally, a "Play Again" button is included to allow the user to restart the quiz.
 
-## Mobile, Tablet, Desktop
+## Design
 Quizify has a modern and minimalist design, with a focus on usability and user experience.
 The design is clean and simple, with a clear hierarchy of information and a consistent layout throughout the game.
 The design is intended to be visually appealing without being distracting, so users can focus on the game.
 
-## Responsive Design
+## Mobile, Tablet, Desktop
 Quizify is built with a responsive layout, so it works on a variety of devices.
 Quizify's UI will adjust to fit the size of your screen, whether you're using a desktop computer, tablet, or mobile phone, providing an excellent viewing and user experience.
 To do this, the app use CSS media queries and flexible layouts that adjust to the screen size of the device.
