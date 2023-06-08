@@ -107,7 +107,58 @@ Quizify was designed with performance in mind, with optimized images and minimal
 ![perfoo](https://user-images.githubusercontent.com/109537705/235115820-48a0cce6-2336-47ce-ba6a-746e8a71fa02.gif)
 
 ## Deployment
-Quizify is deployed using GitHub Pages. Users can also fork the GitHub repository or make a local clone for development.
+To deploy the Quizify project to a hosting platform like GitHub Pages, follow these steps:
+
+1. Fork the GitHub repository: Click on the "Fork" button at the top right corner of the repository page.
+This will create a copy of the repository in your GitHub account.
+
+2. Clone the repository: On your local machine, navigate to the directory where you want to clone the repository.
+Run the following command in your terminal or command prompt:
+
+   ```bash
+   git clone https://github.com/Chris4891/CI-PP2-Quiz.git
+   
+3. Navigate to the project directory: Use the cd command to go into the cloned project directory:
+
+   ```bash
+   cd CI-PP2-Quiz
+   
+4. Open the project in a code editor (Visual Studio Code): you can use a code editor of your choice to open the project files.
+
+5. Start a local development server: If you have a tool like Live Server or any other development server, you can use it to run the project locally.
+Or, you can open the `index.html` file in your browser directly
+
+6. Customize the project as needed.
+You can modify the content, styles, or JavaScript files according to your requirements
+
+7. Commit your changes using the following commands:
+
+    ```bash
+    git add .
+    git commit -m "Update README and other changes"
+   
+8. Push the changes to your GitHub repository:
+
+    ```bash
+    git push origin main
+
+9. Go to your GitHub repository: Open your GitHub account and navigate to the repository you forked.
+
+10. Navigate to the "Settings" tab: Click on the "Settings" tab at the top right corner of the repository page
+
+11. Scroll down to the "GitHub Pages" section: In the left sidebar of the "Settings" tab, scroll down until you find the "GitHub Pages" section.
+
+12. Choose the branch to deploy: In the "GitHub Pages" section, select the branch you want to deploy. For example, `main`
+
+13. Save the settings: Click on the "Save" button to save the changes.
+
+14. Access the deployed site: After saving the settings, you will see a URL where your Quizify app is deployed.
+It may take a few moments for the site to be ready. You can access it by clicking on the URL or copying it into your browser.
+
+Now your Quizify project is deployed and accessible through the URL.
+Any changes you make and push to the selected branch will be automatically reflected on the deployed site.
+
+
 
 ## Credits
 This project was created by me as part of a coding challenge. <br/>
