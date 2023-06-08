@@ -1,5 +1,7 @@
+// Import quiz data
 import { mathQuiz, geographyQuiz, sportsQuiz } from '../data/questions.mjs'
 
+// DOM elements
 const math = document.getElementById('math')
 const geography = document.getElementById('geography')
 const sports = document.getElementById('sports')
@@ -21,13 +23,19 @@ const nextQuestion = document.getElementById('submit-answer-btn')
 const resultContainer = document.getElementById('result-container')
 const quizResult = document.getElementById('result-container')
 
-var wrongSound = new Audio('./assets/audio/wrong.wav')
-var correctSound = new Audio('./assets/audio/correct.wav')
-var finishSound = new Audio('./assets/audio/finish.mp3')
-var quizType = ''
-var userName = ''
-var isChoose = false
+// Audio elements
+const wrongSound = new Audio('./assets/audio/wrong.wav')
+const correctSound = new Audio('./assets/audio/correct.wav')
+const finishSound = new Audio('./assets/audio/finish.mp3')
 
+// Quiz variables
+let quizType = ''
+let userName = ''
+let isChoose = false
+let currentQuestion = 0
+let score = 0
+
+// Helper function => Handle selected quiz click
 function handleSelectedClick(clickedQuiz) {
   const quizes = [math, geography, sports]
   quizes.forEach(quiz => {
@@ -42,28 +50,34 @@ function handleSelectedClick(clickedQuiz) {
   })
 }
 
+// Event listeners
 userNameElement.addEventListener('change', e => {
   userName = e.target.value
 })
 
 startQuiz.addEventListener('click', e => {
-  if (!userName) {
+  if (!userName.trim()) {
+    // Show toast message for username validation
     toast.textContent = 'Please enter your username'
     toast.classList.remove('hide')
     setTimeout(() => {
       toast.classList.add('hide')
     }, 2000)
   } else if (!quizType) {
+    // Show toast message for quiz selection validation
     toast.textContent = 'Please choose one quiz'
     toast.classList.remove('hide')
     setTimeout(() => {
       toast.classList.add('hide')
     }, 2000)
   } else {
+    // Start the quiz
     showQuestion()
     progressContainer.classList.remove('hide')
     toast.classList.add('hide')
     questionScreen.classList.remove('hide-q')
+
+    // Update welcome message based on the selected quiz
     if (quizType === 'Math') {
       welcome.textContent = `Welcome to the math quiz, ${userName}`
       landing.classList.add('hide')
@@ -84,10 +98,7 @@ math.addEventListener('click', () => handleSelectedClick(math))
 geography.addEventListener('click', () => handleSelectedClick(geography))
 sports.addEventListener('click', () => handleSelectedClick(sports))
 
-// WORK WITH QUESTIONS
-var currentQuestion = 0
-var score = 0
-
+// WORK WITH QUESTION
 function showQuestion() {
   const question =
     quizType === 'Math'
@@ -161,7 +172,6 @@ playAgain.addEventListener('click', () => {
 })
 
 // WORK ON PROGRESS
-
 const numberOfQuestion = 10
 
 function updateProgressBar() {
@@ -177,7 +187,6 @@ function updateProgressBar() {
 }
 
 // WORK ON FINAL RESULT
-
 function celebrate() {
   quizResult.classList.add('celebrate')
   finishSound.play()
